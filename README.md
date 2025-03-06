@@ -1,26 +1,22 @@
-### Bienes Raíces 2025 - Backend
-Este es el backend para gestionar una plataforma inmobiliaria. 
-Con Node.js, Express y MongoDB, ofrece funcionalidades como manejo de agentes, propiedades, visitas, contratos, pagos y más.
+# 🏡 Bienes Raíces API
 
-### Estructura
-Agentes: Información de agentes inmobiliarios.
-Propiedades: Detalles de las propiedades.
-Visitas: Registro de visitas a propiedades.
-Contratos: Gestión de contratos legales.
-Pagos: Registro de pagos realizados.
-Usuarios: Autenticación y roles.
-Favoritos: Propiedades guardadas por usuarios.
-Log: Controlador de inicios de usuarios
+Este proyecto es una API para gestionar bienes raíces, incluyendo propiedades, agentes, visitas, contratos y pagos. Proporciona endpoints para la administración de usuarios, autenticación, favoritos y más
 
-### Clona el repositorio:
-git clone https://github.com/tu-usuario/bienesraices2025-backend.git  
-cd bienesraices2025-backend  
+---
 
-### Instala dependencias:
-npm install  
+## 📌 **Características**
+- 📍 Gestión de propiedades, agentes y visitas.
+- 💰 Administración de pagos y contratos.
+- 🔐 Sistema de autenticación con JWT.
+- ✉️ Envío de correos electrónicos con Nodemailer.
+- 📊 Manejo de favoritos de propiedades.
 
-### Configura un archivo .env:
-MONGO_URI=mongodb://127.0.0.1:27017/bienesraices2025  
- 
-### Inicia el servidor:
-npm start  
+---
+
+## 🛠️ **Tecnologías utilizadas**
+- **Backend:** Node.js + Express.js
+- **Base de datos:** MongoDB con Mongoose
+- **Autenticación:** JWT
+ **Validaciones:** Express Validator
+ **Servidor de correos:** Nodemailer
+ **Gestión de dependencias:** npm
